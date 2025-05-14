@@ -857,3 +857,6 @@ for example : <smsc id=""SMSC1"" protocol=""smpp""><!-- url=""http://10.0.2.21:8
       <system-id>test1</system-id>
       <!-- Your password-->
       <password>test1</password>"
+
+The smpp.xml file is an important configuration file in the ESME application. It is used to change and update the ESME application and SMSC connection details. The file is located at:
+esme-wildfly\standalone\deployments\ESME.war\WEB-INF\classes\smpp.xml
