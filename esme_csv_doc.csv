@@ -284,7 +284,8 @@ Synch_submit_response
 <MESSAGE-ID>5</MESSAGE-ID>
 </PARAMETERS>
 </RESP>
-"
+
+"
 "MESSAGE PAYLOAD & UDH  for multi-part message, split messages","UDH Support [Primary Method],  <ESM-CLASS>64</ESM-CLASS>
 <concatenatedSMesmClass>64</concatenatedSMesmClass>"
 Message Payload [SMSC Support Required],"<ESM-CLASS>0</ESM-CLASS>
@@ -327,7 +328,8 @@ Hello from SMPPSim Hello from SMPPSim Hello from SMPPSim]]></MESSAGE>
 <MESSAGE-IDENTIFIER><![CDATA[111]]></MESSAGE-IDENTIFIER>
 <MESSAGE-PARTS><![CDATA[2]]></MESSAGE-PARTS>
 <MESSAGE-PART-NUMBER><![CDATA[1]]></MESSAGE-PART-NUMBER>
-</XML>"
+</XML>
+"
 Delivery Receipt [Delivery connector url],"<REQ>
 <FEATURE>DELIVERY-RECEIPT</FEATURE>
 <TIME-STAMP>{0}</TIME-STAMP>
@@ -622,7 +624,7 @@ error Codes ( codes and descriptions) ,description
 1010,Execute Exception
 1011,CMD_FIELD_MISSING_ERRORCODE
 1012,UNKNOWN_COMMANDID_ERRORCODE
-"1013
+"error code:1013-
 UNKNOWN_SMSC_ERRORCODE ,  in smpp.xml file smsc id and request packet smsc id should be same 
 For example:
  <smsc id=""SMSC1"" protocol=""smpp""><!-- url=""http://10.0.2.21:8080/SMSC/Adapter"">  -->
@@ -634,7 +636,7 @@ For example:
       <system-id>test1</system-id>
       <!-- Your password-->
       <password>test1</password>","UNKNOWN_SMSC_ERRORCODE ,  in smpp.xml file smsc id and request packet smsc id should be same "
-"1014
+"error code:1014-
 NOT_BOUND_WITH_SMSC_ERRORCODE  , esme and smsc not connected , configure proper smsc id and 
 for example : <smsc id=""SMSC1"" protocol=""smpp""><!-- url=""http://10.0.2.21:8080/SMSC/Adapter"">  -->
       <!-- This is the IP address of SMSC-->
