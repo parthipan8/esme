@@ -837,3 +837,23 @@ and smsc connection details  and the path is esme-wildfly\standalone\deployments
  </logs>
 
 </config>"
+"error code:1014-
+NOT_BOUND_WITH_SMSC_ERRORCODE  , esme and smsc not connected , configure proper smsc id and 
+for example : <smsc id=""SMSC1"" protocol=""smpp""><!-- url=""http://10.0.2.21:8080/SMSC/Adapter"">  -->
+      <!-- This is the IP address of SMSC-->
+      <ip-address>127.0.0.1</ip-address>
+      <!-- Port to bind to3008-->
+      <port>2778</port>
+      <!-- Your system id-->
+      <system-id>test1</system-id>
+      <!-- Your password-->
+      <password>test1</password>","NOT_BOUND_WITH_SMSC_ERRORCODE  , esme and smsc not connected , configure proper smsc id and 
+for example : <smsc id=""SMSC1"" protocol=""smpp""><!-- url=""http://10.0.2.21:8080/SMSC/Adapter"">  -->
+      <!-- This is the IP address of SMSC-->
+      <ip-address>127.0.0.1</ip-address>
+      <!-- Port to bind to3008-->
+      <port>2778</port>
+      <!-- Your system id-->
+      <system-id>test1</system-id>
+      <!-- Your password-->
+      <password>test1</password>"
